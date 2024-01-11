@@ -32,6 +32,9 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 # Our Footprints
 
-![scene1](..\assets\images\2024-01-11\pic1.jpg)
-![scene2](..\assets\images\2024-01-11\pic2.jpg)
-![scene3](\assets\images\2024-01-11\pic3.jpg)
+![](/assets/images/2024-01-11/pic1.jpg)
+![](/assets/images/2024-01-11/pic2.jpg)
+![](/assets/images/2024-01-11/pic3.jpg)
+<img src="/assets/images/2024-01-11/pic1.jpg" alt="img alt" title="img title"> 
+
+<img src="../assets/images/2024-01-11/pic2.jpg" alt="img alt" title="img title"> 
