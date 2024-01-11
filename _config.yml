@@ -7,8 +7,7 @@ author: Jeffrey
 copyright: "Copyright © 2024 Jeffrey"
 
 
-
-# baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jeffreyren1.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "https://github.com/jeffreyren1/blog/raw/master/assets/images/banners/ico.ico" # the favicon for your site
 
