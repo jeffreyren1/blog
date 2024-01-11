@@ -5,7 +5,7 @@ subtitle: Much Fun!
 author: Jeffrey
 categories: Travel
 banner:
-  image: /assets/images/banners/home5.png  
+  image: /assets/images/2024-01-11/pic1.jpg 
   opacity: 0.618
   background: "#000"
   height: "100vh"
@@ -16,6 +16,7 @@ tags: Travel
 top: 1
 sidebar: []
 ---
+
 
 # Introduction
 The Summer Palace, also known as Yiheyuan in Chinese, is a majestic royal garden nestled in the northwest outskirts of Beijing. Recognized as one of China's most cherished and extensive imperial parks, it has been listed as a UNESCO World Heritage Site since 1998.
@@ -31,6 +32,6 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 # Our Footprints
 
-![](../assets/images/2024-01-11/pic1.jpg )
-![](../assets/images/2024-01-11/pic2.jpg )
-![](../assets/images/2024-01-11/pic3.jpg )
+![](/assets/images/2024-01-11/pic1.jpg )
+![](/assets/images/2024-01-11/pic2.jpg )
+![](/assets/images/2024-01-11/pic3.jpg )
