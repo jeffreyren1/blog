@@ -90,11 +90,6 @@ I will respect your crucial support and say THANK YOU!
 
 Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
 
 ## License
 
