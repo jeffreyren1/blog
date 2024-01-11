@@ -5,6 +5,10 @@ subtitle: Much Fun!
 author: Jeffrey
 categories: Travel
 banner:
+  video:
+  loop: 
+  volume: 
+  start_at: 
   image: /assets/images/2024-01-11/pic1.jpg 
   opacity: 0.618
   background: "#000"
@@ -18,7 +22,7 @@ sidebar: []
 ---
 
 
-# Introduction
+## Introduction
 The Summer Palace, also known as Yiheyuan in Chinese, is a majestic royal garden nestled in the northwest outskirts of Beijing. Recognized as one of China's most cherished and extensive imperial parks, it has been listed as a UNESCO World Heritage Site since 1998.
 
 Constructed primarily during the Qing Dynasty (1644-1912), the Summer Palace served as a luxurious retreat for emperors seeking respite from the scorching summer heat of the Forbidden City. The design harmoniously combines natural landscapes with artificial structures, reflecting traditional Chinese gardening aesthetics and architectural brilliance.
@@ -30,7 +34,7 @@ The Summer Palace also boasts historical buildings like the Marble Boat, which s
 Today, the Summer Palace continues to attract millions of tourists every year who come to admire its rich history, exquisite architecture, and serene beauty. It not only serves as a living museum but also as a tranquil oasis within the bustling metropolis of Beijing, where one can experience the grandeur of China's imperial past and appreciate the delicate balance between human creativity and nature's serenity.
 
 
-# Our Footprints
+## Our Footprints
 
 ![](pic1.jpg)
 ![](/assets/images/2024-01-11/pic2.jpg)
