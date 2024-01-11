@@ -38,8 +38,9 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 ![/assets/images/2024-01-11/pic1.jpg](https://cloud.tsinghua.edu.cn/f/d8a11396783c4b7c9847/?dl=1 )
 
-![/assets/images/2024-01-11/pic2.jpg](https://github.com/jeffreyren1/blog/blob/master/assets/images/2024-01-11/pic2.jpg?raw=true)
+![/assets/images/2024-01-11/pic2.jpg](https://cloud.tsinghua.edu.cn/f/073542cc48e54ffb8dd7/?dl=1)
 
-![/assets/images/2024-01-11/pic3.jpg](https://github.com/jeffreyren1/blog/blob/master/assets/images/2024-01-11/pic3.jpg?raw=true)
+![/assets/images/2024-01-11/pic3.jpg](https://cloud.tsinghua.edu.cn/f/9fb14b474d9548ada9ab/?dl=1)
 
+[//]: (可以这么写![/assets/images/2024-01-11/pic2.jpg](https://github.com/jeffreyren1/blog/blob/master/assets/images/2024-01-11/pic2.jpg?raw=true))
 
