@@ -7,62 +7,28 @@ categories: jekyll
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
-  volume: 0.8
+  volume: 0.5
   start_at: 8.5
-  image: "../assets/images/banners/home1.png"
+  image: "../assets/images/banners/home5.png"
   opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+tags: HelloWorld
 top: 1
 sidebar: []
 ---
 
-Here is Content:
+Hello everyone!
 
-## section 1
+Welcome to my blog! Here, I will share knowledge and skills from various fields, hoping to bring you inspiration and resonance through my writing and insights.
 
-Jekyll also offers powerful support for code snippets:
+We live in an era where technology is developing at a rapid pace, and science and technology have penetrated every aspect of our lives. As a technology enthusiast who is passionate about exploration and sharing, I hope to explore the mysteries of these fields together with you through this blog and strive for common progress.
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+In the days to come, I will adhere to the principles of objectivity, fairness, and independence, presenting you with articles that are passionate, warm, and profound. At the same time, I am also looking forward to your participation and interaction, joining hands to create a vibrant and creative exchange space.
 
-## section 2
+Please believe that whether you are a beginner or an expert, or even a curious explorer of life, my blog will offer you a unique reward. Let's dive into the ocean of knowledge together, broaden our horizons, and improve ourselves.
 
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
+Lastly, let me once again thank you for your attention and support. Let's explore the unknown, share experiences, and grow together in this technology blog. I look forward to joining hands with you to create a better future!

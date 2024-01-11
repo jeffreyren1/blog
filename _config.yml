@@ -93,11 +93,12 @@ code_badge:
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - about.html
   - index.html
   - archives.html
   - categories.html
   - tags.html
+  - about.html
+
 
 # Page default value
 defaults:
@@ -124,7 +125,7 @@ banner:
 
 # Excerpt settings
 excerpt:
-  default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
+  default_image: /assets/images/banners/default-image.jpeg  # Default image when the image style is not none
   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
   image_width: 38.2%      # Image default width
   image_height: 160px     # Image default height
