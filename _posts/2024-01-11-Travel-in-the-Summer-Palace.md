@@ -31,7 +31,7 @@ Spanning over 290 hectares, the park features breathtaking scenic spots such as 
 
 The Summer Palace also boasts historical buildings like the Marble Boat, which symbolizes the stability of the Qing dynasty despite turbulent times, and the Tower of Buddhist Incense, a towering pagoda that stands as a testament to religious influence on imperial life.
 
-Today, the Summer Palace continues to attract millions of tourists every year who come to admire its rich history, exquisite architecture, and serene beauty. It not only serves as a living museum but also as a tranquil oasis within the bustling metropolis of Beijing, where one can experience the grandeur of China's imperial past and appreciate the delicate balance between human creativity and nature's serenity.
+Today, the Summer Palace continues to attract millions of tourists every year who come to admire its rich history, exquisite architecture, and serene beauty. It not only serves as a living museum but also as a tranquil oasis within the bustling metropolis of Beijing, where one can experience the grandeur of China's imperial past and appreciate the delicate balance between human creativity and nature's serenity. 
 
 
 ## Our Footprints
