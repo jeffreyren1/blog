@@ -1,5 +1,4 @@
 <div align="center">
-  <br>
   <h1>JEKYLL YAT THEME</h1>
 </div>
 
@@ -19,40 +18,18 @@
   </a>
 
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg"
       alt="License: MIT" />
   </a>
 
-  <a href="https://liberapay.com/jeffreytse">
-    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
-      alt="Donate (Liberapay)" />
-  </a>
-
-  <a href="https://patreon.com/jeffreytse">
-    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
-      alt="Donate (Patreon)" />
-  </a>
-
 </p>
 
-<div align="center">
-  <sub>Built with ❤︎ by
-  <a href="https://jeffreytse.net">jeffreytse</a> and
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
-  </sub>
-</div>
+
 
 <br>
 
-Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
-_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
-clear, clean and neat for writers and posts. **If you are an elegant
-writer and focus on content, don't miss it.**
-
-<p align="center">
-Like this elegant theme? You can give it a star or sponsor me!<br>
-I will respect your crucial support and say THANK YOU!
-</p>
+The [_YAT (Yet Another Theme)_](https://github.com/jeffreytse/jekyll-theme-yat) is a modern responsive theme. It's quite
+clear, clean and neat for writers and posts. **If you are an elegant writer and focus on content, don't miss it.**
 
 <p align="center">
 
@@ -93,9 +70,7 @@ Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
 ## License
 
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
-
-[source](https://github.com/jeffreytse/jekyll-theme-yat)
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) 
 
 <!-- External links -->
 
