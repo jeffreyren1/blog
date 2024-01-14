@@ -107,8 +107,8 @@ header_pages:
 defaults:
   home:
     heading: "To be both a speaker of words and a doer of deeds."
-    subheading: "stay hungry, stay foolish!"
-    banner: "/assets/images/banners/home1.png"
+    subheading: "Life is a great big canvas, and you should throw all the paint on it you can"
+    banner: ""
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
