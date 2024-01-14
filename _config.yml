@@ -106,7 +106,7 @@ header_pages:
 # Page default value
 defaults:
   home:
-    heading: "to SHARE, to LEARN, to IMPROVE"
+    heading: "To be both a speaker of words and a doer of deeds."
     subheading: "stay hungry, stay foolish!"
     banner: "/assets/images/banners/home1.png"
 
