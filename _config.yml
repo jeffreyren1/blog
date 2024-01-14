@@ -107,7 +107,7 @@ header_pages:
 defaults:
   home:
     heading: "To be both a speaker of words and a doer of deeds."
-    subheading: "Life is a great big canvas, and you should throw all the paint on it you can"
+    subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
     banner: ""
 
 # Banner default settings
