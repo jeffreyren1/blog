@@ -3,8 +3,9 @@ layout: post
 title:  Markdown Example
 subtitle: Each post also has a subtitle
 categories: markdown
-tags: [example, markdown]
-sidebar: []
+tags: 
+    - markdown
+    - example
 ---
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
@@ -80,6 +81,15 @@ var foo = function(x) {
   return(x + 5);
 }
 foo(3)
+```
+
+```html
+<html>
+  <head> </head>
+  <body>
+    <p>Hello, World!</p>
+  </body>
+</html>
 ```
 
 And here is the same code yet again but with line numbers:

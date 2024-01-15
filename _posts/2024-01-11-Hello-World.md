@@ -18,7 +18,6 @@ banner:
   subheading_style: "color: gold"
 tags: text
 top: 1
-sidebar: []
 ---
 
 **Hello everyone!**
