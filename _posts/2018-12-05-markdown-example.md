@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An **exhibit** of Markdown
+title:  Markdown Example
 subtitle: Each post also has a subtitle
 categories: markdown
 tags: [example, markdown]
@@ -9,11 +9,10 @@ sidebar: []
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
 
-You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
 
 ## An exhibit of Markdown
-
 
 
 *Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.*
@@ -26,7 +25,6 @@ Paragraphs must be separated by a blank line. Basic formatting of *italics* and 
 
 
 ## Table
-
 
 Here's a useless table:
 
@@ -41,7 +39,6 @@ Here's a useless table:
 ## List
 
 ### Ordered list
-
 1. Item 1
 2. A second item
 3. Number 3
@@ -86,7 +83,6 @@ foo(3)
 ```
 
 And here is the same code yet again but with line numbers:
-
 {% highlight javascript linenos %}
 var foo = function(x) {
   return(x + 5);
@@ -125,15 +121,15 @@ URLs can be made in a handful of ways:
 ## Images
 How about a yummy crepe?
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg#pic_left)
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){.:block_center}
 
 It can also be centered!
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg#pic_center)
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
 It can also be righted!
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg#pic_right)
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg#)
 
 <div align=right>
 <img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg />
@@ -147,10 +143,6 @@ A horizontal rule is a line that goes across the middle of the page.
 ---
 
 It's sometimes handy for breaking things up.
-
-
-
-Markdown can also contain images. I'll need to add something here sometime.
 
 
 
@@ -174,9 +166,9 @@ You can add notification, warning and error boxes like this:
 
 ### Emoji
 
-This single quote code `inet:email:message:to` will not be parsed to emoji icon
 :+1:
 :smile:
+
 ## Finally
 
 There's actually a lot more to Markdown than this. See the official [introduction][4] and [syntax][5] for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.
@@ -281,9 +273,6 @@ void insert(const char* key) {
 }
 ```
 
-```ruby
-p ":+1:"
-```
 
 ``` diff
 +        'user_exists' => 'SELECT EXISTS(SELECT 1 FROM table WHERE username = (:username || \'@sample'))',
@@ -293,7 +282,6 @@ p ":+1:"
 ```
 
 Reload the Nginx:
-
 ``` console
 $ sudo nginx -s reload
 ```
@@ -402,8 +390,7 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 | 1 \* 3 = 3 | 2 \* 3 = 6 | 3 \* 3 = 9  |
 | 1 \* 3 = 3 | 2 \* 3 = 6 | 3 \* 4 = 12 | 4 \* 4 = 16 |
 
-## Emoji
-:+1:
+
 
 ## Mathjax
 
@@ -441,15 +428,13 @@ graph LR
 
 Opus Audio (".opus"):
 
-![](https://hpr.dogphilosophy.net/test/opus.opus)
-
+![1](https://hpr.dogphilosophy.net/test/opus.opus)
 "MP3" file (".mp3") :
-
-![](https://hpr.dogphilosophy.net/test/mp3.mp3)
+![2](https://hpr.dogphilosophy.net/test/mp3.mp3)
 
 WebM Audio (".weba"):
 
-![](https://hpr.dogphilosophy.net/test/weba.weba)
+![3](https://hpr.dogphilosophy.net/test/weba.weba)
 
 WebMv2 Audio (".webm"):
 
