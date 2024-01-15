@@ -433,7 +433,6 @@ Opus Audio (".opus"):
 ![2](https://hpr.dogphilosophy.net/test/mp3.mp3)
 
 WebM Audio (".weba"):
-
 ![3](https://hpr.dogphilosophy.net/test/weba.weba)
 
 WebMv2 Audio (".webm"):
