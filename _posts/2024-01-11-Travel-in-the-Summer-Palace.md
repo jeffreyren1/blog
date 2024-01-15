@@ -3,7 +3,7 @@ layout: post
 title: Our Travel in the Summer Palace
 subtitle: Much Fun!
 author: Jeffrey
-categories: Travel
+categories: travel
 banner:
   video:
   loop: 
@@ -16,9 +16,8 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: Travel
+tags: travel
 top: 1
-sidebar: []
 ---
 
 
