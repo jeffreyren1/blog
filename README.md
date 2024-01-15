@@ -3,23 +3,20 @@
 </div>
 
 <h4 align="center">
-  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+  <a href="https://jekyllrb.com/"><code>Jekyll</code></a> theme for elegant writers.
 </h4>
 
 <p align="center">
   <a href="https://jeffreytse.github.io/jekyll-theme-yat">
-    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
-      alt="Github Pages" />
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg" alt="Github Pages" />
   </a>
 
   <a href="https://badge.fury.io/rb/jekyll-theme-yat">
-    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
-      alt="Gem Version" />
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg" alt="Gem Version" />
   </a>
 
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg"
-      alt="License: MIT" />
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" />
   </a>
 
 </p>

@@ -1,4 +1,8 @@
 home:
-  heading: "Your awesome heading"
-  subheading: "Your awesome subheading"
-  banner: "Your image url"
+  heading: "To be both a speaker of words and a doer of deeds."
+  subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
+  banner: 
+    image: "/assets/images/banners/nature1.gif"
+    background: "#000"
+    opacity: 0.85
+  sidebar: []

@@ -37,25 +37,13 @@ header_transparent: true
 content_width: "920px"
 
 # If you want to generate website sitemap, you can set true
-sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
 lang: "en"  # default lang is en
 timezone: Asia/Beijing
-# Translate languges
-# langs refer to https://cloud.google.com/translate/docs/languages
-translate_langs:
-  - lang: en
-    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-    text: English
 
-  - lang: fr
-    img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-    text: French
 
-  - lang: zh-CN
-    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-    text: Chinese Simplified
 
 
 # You can choose a theme color
@@ -113,12 +101,7 @@ header_ext_links:
   - title: github
     url: https://github.com/jeffreyren1
 
-# Page default value
-defaults:
-  home:
-    heading: "To be both a speaker of words and a doer of deeds."
-    subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
-    banner: ""
+
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
