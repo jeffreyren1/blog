@@ -25,6 +25,52 @@ Paragraphs can be written like so. A paragraph is the basic block of Markdown. A
 Paragraphs must be separated by a blank line. Basic formatting of *italics* and **bold** is supported. This *can be **nested** like* so.
 
 
+### Emoji
+
+:+1:
+:smile:
+
+
+## Headings
+
+There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.
+
+### Headings *can* also contain **formatting**
+
+### They can even contain `inline code`
+
+Of course, demonstrating what headings look like messes up the structure of the page.
+
+I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.
+
+## URLs
+
+URLs can be made in a handful of ways:
+
+* A named link to [MarkItDown][3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
+* Another named link to [MarkItDown](https://www.markitdown.net/)
+* Sometimes you just want a URL like <https://www.markitdown.net/>.
+
+
+## Images
+How about a yummy crepe?
+
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){.:block_center}
+
+It can also be centered!
+<div align=right>
+<img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg />
+</div>
+
+## Horizontal rule
+
+A horizontal rule is a line that goes across the middle of the page.
+
+---
+
+It's sometimes handy for breaking things up.
+
+
 ## Table
 
 Here's a useless table:
@@ -71,15 +117,22 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 * And there's more...
 
 
-## Paragraph modifiers
 
-### Code block
 
+## block
+
+### Quote
+
+> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+
+
+### Code
+
+```
     Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
+```
 
 You can also make `inline code` to add code into other things.
-
-
 
 
 Here's a code chunk:
@@ -100,6 +153,20 @@ var foo = function(x) {
 foo(3)
 ```
 
+```cpp
+void insert(const char* key) {
+    if (*key == '\0') {
+        finish = true;
+    } else {
+        int idx = *key - 'A';
+        if (!next[idx])
+            next[idx] = new Trie();
+        next[idx]->insert(key + 1);
+    }
+}
+```
+
+
 ```html
 <html>
   <head> </head>
@@ -118,75 +185,109 @@ foo(3)
 {% endhighlight %}
 
 
-### Quote
 
-> Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
+{% highlight python wl linenos %}
+import networkx as nx
+from collections import Counter
 
+diagrams = defaultdict(list)
+particle_counts = defaultdict(Counter)
 
+for (a, b), neighbors in common_neighbors.items():
+    # Build up the graph of connections between the
+    # common neighbors of a and b.
+    g = nx.Graph()
+    for i in neighbors:
+        for j in set(nl.point_indices[
+            nl.query_point_indices == i]).intersection(neighbors):
+            g.add_edge(i, j)
 
-## Headings
+    # Define the identifiers for a CNA diagram:
 
-There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.
-
-### Headings *can* also contain **formatting**
-
-### They can even contain `inline code`
-
-Of course, demonstrating what headings look like messes up the structure of the page.
-
-I don't recommend using more than three or four levels of headings here, because, when you're smallest heading isn't too small, and you're largest heading isn't too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.
-
-## URLs
-
-URLs can be made in a handful of ways:
-
-* A named link to [MarkItDown][3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
-* Another named link to [MarkItDown](https://www.markitdown.net/)
-* Sometimes you just want a URL like <https://www.markitdown.net/>.
-
-
-## Images
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){.:block_center}
-
-It can also be centered!
-<div align=right>
-<img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg />
-</div>
-
-## Horizontal rule
-
-A horizontal rule is a line that goes across the middle of the page.
-
----
-
-It's sometimes handy for breaking things up.
+    if key in diagrams:
+        isomorphs = [nx.is_isomorphic(g, h) for h in diagrams[key]]
+        if any(isomorphs):
+            idx = isomorphs.index(True)
+        else:
+            diagrams[key].append(g)
+            idx = diagrams[key].index(g)
+    else:
+        diagrams[key].append(g)
+        idx = diagrams[key].index(g)
+    cna_signature = key + (idx,)
+    particle_counts[a].update([cna_signature])
+{% endhighlight %}
 
 
 
-## Boxes
-You can add notification, warning and error boxes like this:
 
-### Notification
+``` diff
++        'user_exists' => 'SELECT EXISTS(SELECT 1 FROM table ',
++        'get_users' => 'SELECT split_part(username, \'@\', 1) FROM tab',
++        'get_password_hash_for_user' => 'SELEC',
++        'set_password_hash_for_user' => 'UP',
+```
 
-{: .box-note}
-**Note:** This is a notification box.
+Reload the Nginx:
+``` console
+$ sudo nginx -s reload
+```
 
-### Warning
 
-{: .box-warning}
-**Warning:** This is a warning box.
 
-### Error
 
-{: .box-error}
-**Error:** This is an error box.
 
-### Emoji
+## Mathjax
 
-:+1:
-:smile:
+$\LaTeX{}$
+
+
+
+## Video
+
+![Flower](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm)
+
+![](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+
+![](https://avatars3.githubusercontent.com/hubot?v=3&amp;s=40)
+
+[\[video link\]](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+
+## Audio
+
+[HTML5 Audio Formats Test](https://hpr.dogphilosophy.net/test/)
+
+
+"MP3" file (".mp3") :
+![2](https://hpr.dogphilosophy.net/test/mp3.mp
+
+WebM Audio (".weba"):
+![3](https://hpr.dogphilosophy.net/test/weba.weba)
+
+
+
+FLAC file (".flac") :
+
+![](https://hpr.dogphilosophy.net/test/flac.flac)
+
+
+## Special media links
+
+Local video file (".webm"):
+
+![]({{ "/assets/videos/devstories.webm" | relative_url }})
+
+Video with custom thumbnail:
+
+[![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
+
+Tips:
+* Use pipes {% raw %}(`|`){% endraw %} to delineate columns, and dashes to delineate the header row from the rest of the table.
+* Spacing doesn't matter to the markdown processor, any extra white space is removed, but it can really help with readability.
+The two markdown examples below both create this table.
+
+Use pipes `{% raw %}(`|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
+
 
 [1]: https://daringfireball.net/projects/markdown/
 [2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
