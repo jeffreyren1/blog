@@ -3,7 +3,7 @@ layout: post
 title: Hello World
 subtitle: my first blog
 author: Jeffrey
-categories: jekyll
+categories: misc
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true

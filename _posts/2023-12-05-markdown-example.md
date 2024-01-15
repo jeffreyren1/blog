@@ -2,10 +2,9 @@
 layout: post
 title:  Markdown Example
 subtitle: Each post also has a subtitle
-categories: markdown
+categories: example
 tags: 
     - markdown
-    - example
 ---
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
@@ -176,6 +175,27 @@ void insert(const char* key) {
 </html>
 ```
 
+Jekyll also offers powerful support for code snippets:
+
+```Ruby
+def print_hi(name)
+puts "Hi, #{name}"
+end
+print_hi('Tom')  #=> prints 'Hi, Tom' to STDOUT.
+```
+
+
+
+{% highlight ruby %}
+def print_hi(name)
+puts "Hi, #{name}"
+end
+print_hi('Tom')  #=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+
+
+
 And here is the same code yet again but with line numbers:
 {% highlight javascript linenos %}
 var foo = function(x) {
@@ -239,7 +259,15 @@ $ sudo nginx -s reload
 
 ## Mathjax
 
-$\LaTeX{}$
+$$\LaTeX{}$$
+
+$$ a \* b = c ^ b $$
+
+$$ 2^{\frac{n-1}{3}} $$
+
+$$\int_a^b f(x)\,dx. $$
+
+inline equation $a+b=c$ test。
 
 
 

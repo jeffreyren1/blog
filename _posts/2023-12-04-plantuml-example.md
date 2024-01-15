@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plantuml example
+title: Plantuml Example
 categories: example
 tags: [plantuml]
 ---
