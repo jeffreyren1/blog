@@ -1,15 +1,20 @@
 
 
 title: Jeffrey Ren's Blog
-email: 11513699928@qq.com
+email: 1513699928@qq.com
 author: Jeffrey
 
 copyright: "Copyright © 2024 Jeffrey"
+copyright-icons:
+  - fa-creative-commons
+  - fa-creative-commons-by
+  - fa-creative-commons-sa
 
-
+description:
+  "Jeffrey Ren's Blog"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jeffreyren1.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "https://cloud.tsinghua.edu.cn/f/c03001bada654317aa97/?dl=1" # the favicon for your site
+favicon: "/assets/images/banners/ico.ico" # the favicon for your site
 
 #可以这么写favicon: "https://github.com/jeffreyren1/blog/raw/master/assets/images/banners/ico.ico" 
 #可以这么写favicon: "/assets/images/banners/ico.ico" 
@@ -19,7 +24,9 @@ favicon: "https://cloud.tsinghua.edu.cn/f/c03001bada654317aa97/?dl=1" # the favi
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 yat:
   date_format: "%b %d, %Y"
-
+  
+last-modified-at:
+  date_format: "%F, %T"
 # If you want more debug log, you can set true
 debug: false
 
@@ -34,7 +41,7 @@ sitemap: false
 
 # If you want to change site language, you can set lang option
 lang: "en"  # default lang is en
-
+timezone: Asia/Beijing
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 translate_langs:
@@ -48,7 +55,7 @@ translate_langs:
 
   - lang: zh-CN
     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-    text: Chinese(Simple)
+    text: Chinese Simplified
 
 
 # You can choose a theme color
@@ -102,6 +109,9 @@ header_pages:
   - tags.html
   - about.html
 
+header_ext_links:
+  - title: github
+    url: https://github.com/jeffreyren1
 
 # Page default value
 defaults:
@@ -186,6 +196,7 @@ disqus:
 markdown: kramdown
 kramdown:
   input: GFM
+  entity_output: as_input
 
 plugins:
   - jekyll-feed
@@ -193,3 +204,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  - jekyll-last-modified-at
+  - jekyll-redirect-from
+  - jekyll-include-cache
+  - jekyll-autolink_email
