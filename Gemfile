@@ -28,7 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-redirect-from"
   gem "jekyll-last-modified-at"
-  gem "jekyll-autolink_email", git: "https://github.com/jnooree/jekyll-autolink_email"
+  gem "jekyll-autolink_email", git: "https://github.com/jnooree/jekyll-autolink_email" 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
