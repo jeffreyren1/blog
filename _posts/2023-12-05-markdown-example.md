@@ -262,73 +262,75 @@ $ sudo nginx -s reload
 
 ## Mathjax
 
-$$\LaTeX{}$$
+`\LaTeX{}`
 
-$$ a \* b = c ^ b $$
+` a \* b = c ^ b `
 
-$$ 2^{\frac{n-1}{3}} $$
+`2^{\frac{n-1}{3}} `
 
-$$\int_a^b f(x)\,dx. $$
+$$ \int_a^b f(x)\,dx. $$
 
 inline equation $a+b=c$ test。
 
 
 
 ## Video
-
-<video width="320" height="240" controls autoplay>
-  <source src="movie.ogg" type="video/ogg">
-  <source src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" >
-  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
-  <object data="movie.mp4" width="320" height="240">
-    <embed width="320" height="240" src="movie.swf">
-  </object>
-</video>
-
-</body>
-</html>
+<div align="center">
+    <video width="320" height="240" controls autoplay>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+    </video>
+</div>
 
 
-![Flower](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm)
+<div align="center">
+    <video width="500" height="350" controls autoplay>
+        <source src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" >
+    </video>
+</div>
 
-![video link](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
-[\[video link\]](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
+
+
+
+Local video file (".webm")
+<div align="center">
+    <video width="500" height="350" controls autoplay>
+        <source src="/assets/videos/devstories.webm" >
+    </video>
+</div>
+
+
+Video with custom thumbnail:
+<div align="center">
+    <video width="400" height="400" poster="https://i.imgur.com/bc9HOJU.png" controls>
+            <source src="https://www.youtube.com/watch?v=kCHGDRHZ4eU" type="video/mp4">
+        </video>
+</div>
+
+
+
+
 
 ## Audio
 
-<audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="[horse.mp3](https://hpr.dogphilosophy.net/test/mp3.mp3)" type="audio/mpeg">
-</audio>
-
-[HTML5 Audio Formats Test](https://hpr.dogphilosophy.net/test/)
+HTML5 Audio Formats Test is [here](https://hpr.dogphilosophy.net/test/)
 
 
 "MP3" file (".mp3") :
-![MP3 Test](https://hpr.dogphilosophy.net/test/mp3.mp3)
+<audio controls>
+  <source src="https://hpr.dogphilosophy.net/test/mp3.mp3" type="audio/mpeg">
+</audio>
 
 WebM Audio (".weba"):
-![WebM Audio](https://hpr.dogphilosophy.net/test/weba.weba)
+<audio controls>
+  <source src="https://hpr.dogphilosophy.net/test/weba.weba)">
+</audio>
+
 
 FLAC file (".flac") :
-![FLAC file](https://hpr.dogphilosophy.net/test/flac.flac)
-
-
-## Special media links
-
-Local video file (".webm")
-![Local video]({{ "/assets/videos/devstories.webm" | relative_url }})
-
-Video with custom thumbnail:
-[![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
-
-Tips:
-* Use pipes {% raw %}(`|`){% endraw %} to delineate columns, and dashes to delineate the header row from the rest of the table.
-* Spacing doesn't matter to the markdown processor, any extra white space is removed, but it can really help with readability.
-The two markdown examples below both create this table.
-
-Use pipes `{% raw %}(`\|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
+<audio controls>
+  <source src="https://hpr.dogphilosophy.net/test/flac.flac">
+</audio>
 
 
 
