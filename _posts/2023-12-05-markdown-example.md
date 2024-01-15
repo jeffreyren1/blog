@@ -8,6 +8,8 @@ tags:
 ---
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
+[1]: https://daringfireball.net/projects/markdown/
+
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
@@ -49,7 +51,7 @@ URLs can be made in a handful of ways:
 * A named link to [MarkItDown][3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
 * Another named link to [MarkItDown](https://www.markitdown.net/)
 * Sometimes you just want a URL like <https://www.markitdown.net/>.
-
+[3]: https://www.markitdown.net/
 
 ## Images
 How about a yummy crepe?
@@ -107,6 +109,7 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 4. Ⅳ
 
 *Note: the fourth item uses the Unicode character for [Roman numeral four][2].*
+[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
 
 ### Unordered list
 
@@ -273,40 +276,51 @@ inline equation $a+b=c$ test。
 
 ## Video
 
+<video width="320" height="240" controls autoplay>
+  <source src="movie.ogg" type="video/ogg">
+  <source src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" >
+  <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+  <object data="movie.mp4" width="320" height="240">
+    <embed width="320" height="240" src="movie.swf">
+  </object>
+</video>
+
+</body>
+</html>
+
+
 ![Flower](https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm)
 
-![](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+![video link](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
-![](https://avatars3.githubusercontent.com/hubot?v=3&amp;s=40)
-
-[\[video link\]](//www.youtube.com/watch?v=Ptk_1Dc2iPY)
+[\[video link\]](https://www.youtube.com/watch?v=Ptk_1Dc2iPY)
 
 ## Audio
+
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="[horse.mp3](https://hpr.dogphilosophy.net/test/mp3.mp3)" type="audio/mpeg">
+</audio>
 
 [HTML5 Audio Formats Test](https://hpr.dogphilosophy.net/test/)
 
 
 "MP3" file (".mp3") :
-![2](https://hpr.dogphilosophy.net/test/mp3.mp
+![MP3 Test](https://hpr.dogphilosophy.net/test/mp3.mp3)
 
 WebM Audio (".weba"):
-![3](https://hpr.dogphilosophy.net/test/weba.weba)
-
-
+![WebM Audio](https://hpr.dogphilosophy.net/test/weba.weba)
 
 FLAC file (".flac") :
-
-![](https://hpr.dogphilosophy.net/test/flac.flac)
+![FLAC file](https://hpr.dogphilosophy.net/test/flac.flac)
 
 
 ## Special media links
 
-Local video file (".webm"):
-
-![]({{ "/assets/videos/devstories.webm" | relative_url }})
+Local video file (".webm")
+![Local video]({{ "/assets/videos/devstories.webm" | relative_url }})
 
 Video with custom thumbnail:
-
 [![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
 
 Tips:
@@ -314,11 +328,8 @@ Tips:
 * Spacing doesn't matter to the markdown processor, any extra white space is removed, but it can really help with readability.
 The two markdown examples below both create this table.
 
-Use pipes `{% raw %}(`|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
+Use pipes `{% raw %}(`\|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
 
 
-[1]: https://daringfireball.net/projects/markdown/
-[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
-[3]: https://www.markitdown.net/
-[4]: https://daringfireball.net/projects/markdown/basics
-[5]: https://daringfireball.net/projects/markdown/syntax
+
+
