@@ -14,7 +14,7 @@ description:
   "Jeffrey Ren's Blog"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jeffreyren1.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "/ico.jpg" # the favicon for your site
+favicon: "/assets/images/banners/ico.jpg" # the favicon for your site
 
 #可以这么写favicon: "https://github.com/jeffreyren1/blog/raw/master/assets/images/banners/ico.ico" 
 #可以这么写favicon: "/assets/images/banners/ico.ico" 
@@ -42,8 +42,20 @@ sitemap: true
 # If you want to change site language, you can set lang option
 lang: "en"  # default lang is en
 timezone: Asia/Beijing
+# Translate languges
+# langs refer to https://cloud.google.com/translate/docs/languages
+translate_langs:
+  - lang: en
+    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+    text: English
 
+  - lang: fr
+    img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+    text: French
 
+  - lang: zh-CN
+    img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+    text: Chinese Simplified
 
 
 # You can choose a theme color
@@ -101,7 +113,12 @@ header_ext_links:
   - title: github
     url: https://github.com/jeffreyren1
 
-
+# Page default value
+defaults:
+  home:
+    heading: "To be both a speaker of words and a doer of deeds."
+    subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
+    banner: ""
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also

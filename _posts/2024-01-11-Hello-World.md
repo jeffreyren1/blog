@@ -16,12 +16,12 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: HelloWorld
+tags: text
 top: 1
 sidebar: []
 ---
 
-Hello everyone!
+**Hello everyone!**
 
 Welcome to my blog! Here, I will share knowledge and skills from various fields, hoping to bring you inspiration and resonance through my writing and insights.
 
