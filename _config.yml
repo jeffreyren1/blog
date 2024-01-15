@@ -27,8 +27,9 @@ yat:
   
 last-modified-at:
   date_format: "%F, %T"
+
 # If you want more debug log, you can set true
-debug: false
+debug: true
 
 # If you don't want transparent header, you can set false
 header_transparent: true
@@ -42,6 +43,7 @@ sitemap: true
 # If you want to change site language, you can set lang option
 lang: "en"  # default lang is en
 timezone: Asia/Beijing
+
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
 translate_langs:
