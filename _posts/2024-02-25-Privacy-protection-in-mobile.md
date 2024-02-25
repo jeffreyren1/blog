@@ -38,7 +38,7 @@ Due to the limitations of lower version Android permission design, any applicati
 
 You can use this software to achieve: the application will only place files in its own space; The application can only read its own files, as well as files that are pre-set to be readable.
 
-## 3.AFWall+ 
+## 3. AFWall+ 
 AFWall+is an open-source "firewall" that can control the behavior of application networking. Root permission is required to set interception rules. It can control the communication between an application and the Internet or other local applications.
 
 
@@ -49,7 +49,7 @@ AFWall+is an open-source "firewall" that can control the behavior of application
 HideMyApplist is a list of apps that can be hidden from the launcher.Some software exploit various system vulnerabilities in an attempt to obtain a list of applications installed on the phone, in order to generate a user profile. Therefore, restricting some applications from accessing the application list has become one of the important methods to balance privacy and convenience.
 
 
-## 5.Ice Box
+## 5. Ice Box
 
 Ice Box is a utility that can freeze applications. It can be used to prevent applications from consuming resources and to prevent applications from accessing the Internet.
 

@@ -122,7 +122,7 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 
 
 
-## block
+## Block
 
 ### Quote
 
