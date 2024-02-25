@@ -17,6 +17,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: travel
+top
 ---
 
 
@@ -32,7 +33,7 @@ The Summer Palace also boasts historical buildings like the Marble Boat, which s
 Today, the Summer Palace continues to attract millions of tourists every year who come to admire its rich history, exquisite architecture, and serene beauty. It not only serves as a living museum but also as a tranquil oasis within the bustling metropolis of Beijing, where one can experience the grandeur of China's imperial past and appreciate the delicate balance between human creativity and nature's serenity. 
 
 
-# Our Footprints
+## Our Footprints
 
 
 
@@ -43,13 +44,15 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 [comment]: <> (<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
 
 <div>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg" width="80%" height="80%" alt ="pic1" align="middle" />
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg" alt ="pic1" align="middle" />
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg"  alt ="pic2" align="middle" />
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg" alt ="pic2" align="middle" />
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" width="80%" height="80%" alt ="pic3" align="middle" />
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic3" align="middle" />
 </div>  
+
+[comment]: <> (DO NOT USE width="80%" height="80%" )
