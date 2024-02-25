@@ -35,18 +35,16 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 ## Our Footprints
 
-![pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg")
+
 
 [comment]: <> (This is a comment, it will not be included)
+[comment]: <> (![pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg"))
+[comment]: <> (DO NOT USING MARKDOWN SYNTAX IN IMAGES LIKE ABOVE!!!)
 [comment]: <> (<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
 
 
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic1"/>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic2"/>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic3"/>
 
-![pic2.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg")
-
-![pic3.jpg](https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg)
-
-<img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg alt ="online image"/>
-<img src=https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg alt ="online image"/>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="online image"/>
-
+<img src="/assets/images/2024-01-11/pic1.jpg" alt ="pic3" align=center />
