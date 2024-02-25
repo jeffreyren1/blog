@@ -5,7 +5,7 @@ categories: example
 tags: [mermaid, example]
 ---
 
-### 1. Pie chart
+## 1. Pie chart
 
 ```mermaid!
 pie title Pets adopted by volunteers
@@ -14,7 +14,7 @@ pie title Pets adopted by volunteers
   "Rats" : 35
 ```
 
-### 2. sequence diagram
+## 2. sequence diagram
 
 @startmermaid
 sequenceDiagram
@@ -37,7 +37,7 @@ A[Christmas] -->|Get money| B(Go shopping)
   C -->|Three| F[fa:fa-car Car]
 ```
 
-### 3. Class diagram
+## 3. Class diagram
 ```mermaid!
 classDiagram
 Animal <|-- Duck
@@ -62,7 +62,7 @@ class Zebra{
 }
 ```
 
-### 4. State diagram
+## 4. State diagram
 ```mermaid!
 stateDiagram
 [*] --> Still

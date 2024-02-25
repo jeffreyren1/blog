@@ -5,21 +5,20 @@ categories: example
 tags: [plantuml,example]
 ---
 
-## My First PlantUML
 
-### PlantUML Block-1
+## PlantUML Block-1
 @startuml
 Bob -> Alice : hello
 @enduml
 
 
-### PlantUML Block-2
+## PlantUML Block-2
 ``` plantuml!
 Bob -> Alice : hello world
 ```
 
 
-### PlantUML Block-3
+## PlantUML Block-3
 @startuml
 (*) --> "Initialization"
 
@@ -34,7 +33,7 @@ endif
 @enduml
 
 
-### PlantUML Block-4
+## PlantUML Block-4
 
 @startuml
 skinparam handwritten true
