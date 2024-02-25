@@ -43,14 +43,17 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 [comment]: <> (DO NOT USE LOCAL PATH BUT USE URL)
 [comment]: <> (<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
 
+<br>
 <div>
 <img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg" alt ="pic1" align="middle" />
 </div>
 
+<br>
 <div>
 <img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg" alt ="pic2" align="middle" />
 </div>
 
+<br>
 <div>
 <img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic3" align="middle" />
 </div>  
