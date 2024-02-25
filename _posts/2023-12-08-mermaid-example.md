@@ -2,7 +2,7 @@
 layout: post
 title: Mermaid example
 categories: example
-tags: [mermaid]
+tags: [mermaid,example]
 ---
 
 ### 1. Pie chart
