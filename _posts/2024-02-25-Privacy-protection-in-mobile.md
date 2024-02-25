@@ -4,7 +4,7 @@ title: Privacy Protection in Mobile
 author: Jeffrey
 categories: misc
 banner:
-  - image: /assets/images/oppopic/开往春天.jpg
+  image: /assets/images/oppopic/开往春天.jpg
 tags: misc
 
 ---

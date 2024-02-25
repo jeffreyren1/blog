@@ -5,7 +5,7 @@ author: Jeffrey
 categories: misc
 banner:
   image: /assets/images/oppopic/海上圆舞曲.jpg
-tags: misc, video
+tags: [misc, video]
 
 ---
 
