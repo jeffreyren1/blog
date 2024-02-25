@@ -47,7 +47,7 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 </div>
 
 <div>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg" width="80%" height="80%" alt ="pic2" align="middle" />
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg"  alt ="pic2" align="middle" />
 </div>
 
 <div>
