@@ -39,14 +39,12 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 [comment]: <> (This is a comment, it will not be included)
 [comment]: <> (![pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg"))
-[comment]: <> (DO NOT USING MARKDOWN SYNTAX IN IMAGES LIKE ABOVE!!!)
+[comment]: <> (DO NOT USE MARKDOWN SYNTAX IN IMAGES LIKE ABOVE!!!)
+[comment]: <> (DO NOT USE LOCAL PATH BUT USE URL)
 [comment]: <> (<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
 
 
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic1"/>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic2"/>
-<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt ="pic3"/>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg" width="80%" alt ="pic1"/>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg" width="80%" alt ="pic2"/>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" width="80%" alt ="pic3"/>
 
-<img src="/assets/images/2024-01-11/pic1.jpg" alt ="pic123" />
-<img src="../assets/images/2024-01-11/pic1.jpg" alt ="pic456" />
-<img src="/assets/images/2024-01-11/pic1.jpg" alt ="pic789" />

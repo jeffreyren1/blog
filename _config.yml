@@ -14,7 +14,7 @@ description:
   "Jeffrey Ren's Blog"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jeffreyren1.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "https://github.com/jeffreyren1/blog/blob/master/assets/images/banners/ico.ico" # the favicon for your site
+favicon: "https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/banners/favicon.ico" # the favicon for your site
 
 #可以这么写favicon: "https://github.com/jeffreyren1/blog/raw/master/assets/images/banners/ico.ico" 
 #可以这么写favicon: "/assets/images/banners/ico.ico" 
@@ -42,7 +42,7 @@ sitemap: true
 
 # If you want to change site language, you can set lang option
 lang: "en"  # default lang is en
-timezone: Asia/Beijing
+timezone: Asia/Shanghai
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -117,10 +117,10 @@ header_ext_links:
 
 # Page default value
 defaults:
-  home:
-    heading: "To be both a speaker of words and a doer of deeds."
-    subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
-    banner: ""
+  - home:
+      heading: "To be both a speaker of words and a doer of deeds."
+      subheading: "Life is a great big canvas, and you should throw all the paint on it you can."
+      banner: []
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
