@@ -14,7 +14,7 @@ description:
   "Jeffrey Ren's Blog"
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jeffreyren1.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "/assets/images/banners/ico.jpg" # the favicon for your site
+favicon: "https://github.com/jeffreyren1/blog/blob/master/assets/images/banners/ico.ico" # the favicon for your site
 
 #可以这么写favicon: "https://github.com/jeffreyren1/blog/raw/master/assets/images/banners/ico.ico" 
 #可以这么写favicon: "/assets/images/banners/ico.ico" 
