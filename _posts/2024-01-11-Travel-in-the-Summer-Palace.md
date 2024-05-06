@@ -19,7 +19,7 @@ banner:
 tags: travel
 top:
 ---
-[comment]: <> (DO NOT USE ## Introduction,OTHERWISE THERE IS NO TOC!)
+[comment]: <> (DO NOT USE # Introduction, OTHERWISE THERE IS NO TOC! USE ## Introduction)
 
 ## Introduction
 
@@ -39,10 +39,10 @@ Today, the Summer Palace continues to attract millions of tourists every year wh
 
 
 [comment]: <> (This is a comment, it will not be included)
-[comment]: <> (![pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg"))
-[comment]: <> (DO NOT USE MARKDOWN SYNTAX IN IMAGES LIKE ABOVE!!!)
-[comment]: <> (DO NOT USE LOCAL PATH BUT USE URL)
-[comment]: <> (<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
+[comment]: <> (DO NOT USE MARKDOWN SYNTAX IN IMAGES LIKE THIS: [pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg") )
+
+[comment]: <> (DO NOT USE LOCAL PATH, BUT USE URL. not recommended:<img src=/assets/images/2024-01-11/pic1.jpg align=center />)
+
 
 <br>
 <div>
