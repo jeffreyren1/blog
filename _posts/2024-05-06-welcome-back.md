@@ -4,17 +4,19 @@ title: Welcome Back
 author: Jeffrey
 categories: misc
 banner:
-  image: /assets/images/oppopic/地球调色师.jpg
+  video:
+  loop: 
+  volume: 
+  start_at: 
+  image: /assets/images/oppopic/开往春天.jpg 
   opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [misc]
-top:2
+tags: misc
+top:
 ---
 
-Long time no see, I'm back.  
-
-Let's work hard together from now on. 
+Welcome Back!
