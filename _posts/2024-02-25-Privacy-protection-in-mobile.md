@@ -8,7 +8,7 @@ banner:
   loop: 
   volume: 
   start_at: 
-  image: /assets/images/oppopic/开往春天.jpg
+  image: /assets/images/oppopic/开往春天.jpg 
   opacity: 0.618
   background: "#000"
   height: "100vh"

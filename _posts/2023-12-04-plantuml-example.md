@@ -8,7 +8,7 @@ tags: [plantuml,example]
 
 ## PlantUML Block-1
 @startuml
-Bob -> Alice : hello
+Bob -> Alice : hello 
 @enduml
 
 

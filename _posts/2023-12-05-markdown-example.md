@@ -4,7 +4,7 @@ title: Markdown Example
 subtitle: Each post also has a subtitle
 categories: example
 tags: 
-    - markdown
+    - markdown 
     - example
 ---
 

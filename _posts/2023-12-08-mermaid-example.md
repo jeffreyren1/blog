@@ -27,7 +27,8 @@ sequenceDiagram
   Bob-->Alice: Checking with John...
   Alice->John: Yes... John, how are you?
 @endmermaid
-
+ 
+ 
 ```mermaid!
 graph TD
 A[Christmas] -->|Get money| B(Go shopping)

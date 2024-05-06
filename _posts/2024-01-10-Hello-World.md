@@ -21,7 +21,7 @@ top: 1
 ---
 
 **Hello everyone!**
-
+ 
 Welcome to my blog! Here, I will share knowledge and skills from various fields, hoping to bring you inspiration and resonance through my writing and insights.
 
 We live in an era where technology is developing at a rapid pace, and science and technology have penetrated every aspect of our lives. As a technology enthusiast who is passionate about exploration and sharing, I hope to explore the mysteries of these fields together with you through this blog and strive for common progress.
