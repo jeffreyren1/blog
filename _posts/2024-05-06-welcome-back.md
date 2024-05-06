@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome Back!
+title: Welcome Back
 author: Jeffrey
 categories: misc
 banner:
