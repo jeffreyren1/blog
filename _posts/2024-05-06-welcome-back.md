@@ -8,7 +8,7 @@ banner:
   loop: 
   volume: 
   start_at: 
-  image: /assets/images/oppopic/开往春天.jpg 
+  image: /assets/images/oppopic/地球调色师.jpg 
   opacity: 0.618
   background: "#000"
   height: "100vh"
@@ -16,7 +16,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: misc
-top:
+top:2
 ---
 
 Welcome Back!
