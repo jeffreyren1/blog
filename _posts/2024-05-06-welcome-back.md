@@ -15,6 +15,6 @@ tags: [misc]
 top:2
 ---
 
-Long time no see, I'm back. 
+Long time no see, I'm back.  
 
 Let's work hard together from now on.
