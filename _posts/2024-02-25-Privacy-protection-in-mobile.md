@@ -19,7 +19,6 @@ tags: [misc,android,privacy]
 top:
 ---
 
-
 ## Introduction
 **PRIVACY** and **CONVENIENCE** are evil twins, and there is no absolute privacy in the world. Relative balance can create a beautiful scenery. Excessive balance will destroy this beauty. If you choose to respect your privacy rights, please note that this will to some extent infringe on the rights of the corresponding service provider and may result in your service provider exercising the right to refuse to provide some or all services. Therefore, please think twice before taking action. For the convenience of decision-making, this article will briefly attach examples at the beginning of each chapter that are known to cause such situations. Of course, the improvement of privacy level will also come at the cost of sacrificing some convenience. You need to weigh the pros and cons on your own and make decisions that are deemed appropriate.
 
