@@ -11,7 +11,7 @@ banner:
   start_at: 8.5
   image: /assets/images/banners/home5.png  
   opacity: 0.618
-  background: "#000"
+  background: "#000000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
