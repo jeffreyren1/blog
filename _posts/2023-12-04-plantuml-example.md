@@ -4,7 +4,7 @@ title: Plantuml Example
 author: Jeffrey
 categories: example
 tags: [plantuml,example]
-top: 2   <!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+top: 2   
 banner:
   video:
   loop: 
@@ -18,16 +18,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 ---
-
-
----
-layout: post
-title: Welcome Back
-author: Jeffrey
-categories: misc
-
----
-
+<!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
 
 ## PlantUML Block-1
 
