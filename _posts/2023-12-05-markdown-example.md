@@ -2,21 +2,33 @@
 layout: post
 title: Markdown Example
 subtitle: Each post also has a subtitle
+author: Jeffrey
 categories: example
 tags: 
     - markdown 
     - example
+top: 
+banner:
+  video: https://vjs.zencdn.net/v/oceans.mp4
+  loop: true
+  volume: 0.5
+  start_at: 8.5
+  image: /assets/images/bingpic/CumbriaAutumn_1920x1080.jpg
+  opacity: 0.618
+  background: "#000000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
+
 ---
 
-This note demonstrates some of what [Markdown][1] is capable of doing.
-[1]: https://daringfireball.net/projects/markdown/
-
+This note demonstrates some of what [Markdown][label1] is capable of doing.
+[label1]: <https://daringfireball.net/projects/markdown/>
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
-
 ## An exhibit of Markdown
-
 
 *Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.*
 
@@ -26,12 +38,10 @@ Paragraphs can be written like so. A paragraph is the basic block of Markdown. A
 
 Paragraphs must be separated by a blank line. Basic formatting of *italics* and **bold** is supported. This *can be **nested** like* so.
 
-
 ### Emoji
 
 :+1:
 :smile:
-
 
 ## Headings
 
@@ -49,12 +59,13 @@ I don't recommend using more than three or four levels of headings here, because
 
 URLs can be made in a handful of ways:
 
-* A named link to [MarkItDown][3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
+* A named link to [MarkItDown][label3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
 * Another named link to [MarkItDown](https://www.markitdown.net/)
 * Sometimes you just want a URL like <https://www.markitdown.net/>.
-[3]: https://www.markitdown.net/
+[label3]: <https://www.markitdown.net/>
 
 ## Images
+
 How about a yummy crepe?
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){.:block_center}
@@ -71,7 +82,6 @@ A horizontal rule is a line that goes across the middle of the page.
 ---
 
 It's sometimes handy for breaking things up.
-
 
 ## Table
 
@@ -93,8 +103,6 @@ Here's a useless table:
 |     (1,0)    || ^^    | (1,3) |
 </script>
 
-
-
 In table:
 
 Decision Point | Design Decision
@@ -104,13 +112,14 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 ## List
 
 ### Ordered list
+
 1. Item 1
 2. A second item
 3. Number 3
 4. Ⅳ
 
-*Note: the fourth item uses the Unicode character for [Roman numeral four][2].*
-[2]: https://www.fileformat.info/info/unicode/char/2163/index.htm
+*Note: the fourth item uses the Unicode character for [Roman numeral four][label2].*
+[label2]: <https://www.fileformat.info/info/unicode/char/2163/index.htm>
 
 ### Unordered list
 
@@ -119,15 +128,11 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 * Yet another item
 * And there's more...
 
-
-
-
 ## Block
 
 ### Quote
 
 > Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
-
 
 ### Code
 
@@ -136,7 +141,6 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 ```
 
 You can also make `inline code` to add code into other things.
-
 
 Here's a code chunk:
 
@@ -169,7 +173,6 @@ void insert(const char* key) {
 }
 ```
 
-
 ```html
 <html>
   <head> </head>
@@ -188,17 +191,12 @@ end
 print_hi('Tom')  #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-
-
 {% highlight ruby %}
 def print_hi(name)
 puts "Hi, #{name}"
 end
 print_hi('Tom')  #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
-
-
 
 And here is the same code yet again but with line numbers:
 {% highlight javascript linenos %}
@@ -207,8 +205,6 @@ var foo = function(x) {
 }
 foo(3)
 {% endhighlight %}
-
-
 
 {% highlight python wl linenos %}
 import networkx as nx
@@ -226,7 +222,7 @@ for (a, b), neighbors in common_neighbors.items():
             nl.query_point_indices == i]).intersection(neighbors):
             g.add_edge(i, j)
 
-    # Define the identifiers for a CNA diagram:
+        # Define the identifiers for a CNA diagram:
 
     if key in diagrams:
         isomorphs = [nx.is_isomorphic(g, h) for h in diagrams[key]]
@@ -242,9 +238,6 @@ for (a, b), neighbors in common_neighbors.items():
     particle_counts[a].update([cna_signature])
 {% endhighlight %}
 
-
-
-
 ``` diff
 +        'user_exists' => 'SELECT EXISTS(SELECT 1 FROM table ',
 +        'get_users' => 'SELECT split_part(username, \'@\', 1) FROM tab',
@@ -253,13 +246,10 @@ for (a, b), neighbors in common_neighbors.items():
 ```
 
 Reload the Nginx:
+
 ``` console
-$ sudo nginx -s reload
+sudo nginx -s reload
 ```
-
-
-
-
 
 ## Mathjax
 
@@ -267,31 +257,25 @@ $ sudo nginx -s reload
 
 ` a \* b = c ^ b `
 
-`2^{\frac{n-1}{3}} `
+`2^{\frac{n-1}{3}}`
 
 $$ \int_a^b f(x)\,dx. $$
 
 inline equation $a+b=c$ test。
 
-
-
 ## Video
+
 <div align="center">
     <video width="320" height="240" controls autoplay>
         <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
     </video>
 </div>
 
-
 <div align="center">
     <video width="500" height="350" controls autoplay>
         <source src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" >
     </video>
 </div>
-
-
-
-
 
 Local video file (".webm")
 <div align="center">
@@ -300,7 +284,6 @@ Local video file (".webm")
     </video>
 </div>
 
-
 Video with custom thumbnail:
 <div align="center">
     <video width="400" height="400" poster="https://i.imgur.com/bc9HOJU.png" controls>
@@ -308,14 +291,9 @@ Video with custom thumbnail:
         </video>
 </div>
 
-
-
-
-
 ## Audio
 
 HTML5 Audio Formats Test is [here](https://hpr.dogphilosophy.net/test/)
-
 
 "MP3" file (".mp3") :
 <audio controls>
@@ -327,12 +305,7 @@ WebM Audio (".weba"):
   <source src="https://hpr.dogphilosophy.net/test/weba.weba)">
 </audio>
 
-
 FLAC file (".flac") :
 <audio controls>
   <source src="https://hpr.dogphilosophy.net/test/flac.flac">
 </audio>
-
-
-
-

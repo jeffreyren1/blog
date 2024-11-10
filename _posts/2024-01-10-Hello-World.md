@@ -4,6 +4,8 @@ title: Hello World
 subtitle: my first blog
 author: Jeffrey
 categories: misc
+tags: [text, misc]
+top: 1
 banner:
   video: https://vjs.zencdn.net/v/oceans.mp4
   loop: true
@@ -16,12 +18,11 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: [text, misc]
-top: 1
+
 ---
 
 **Hello everyone!**
- 
+
 Welcome to my blog! Here, I will share knowledge and skills from various fields, hoping to bring you inspiration and resonance through my writing and insights.
 
 We live in an era where technology is developing at a rapid pace, and science and technology have penetrated every aspect of our lives. As a technology enthusiast who is passionate about exploration and sharing, I hope to explore the mysteries of these fields together with you through this blog and strive for common progress.
