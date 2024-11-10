@@ -4,7 +4,7 @@ title: My Video List
 author: Jeffrey
 categories: misc
 tags: [misc]
-top: <!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+top: 
 banner:
   video:
   loop: 

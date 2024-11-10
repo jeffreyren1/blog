@@ -4,7 +4,7 @@ title: Welcome Back
 author: Jeffrey
 categories: misc
 tags: misc
-top:    <!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+top:    
 banner:
   video:
   loop: 
@@ -19,6 +19,7 @@ banner:
   subheading_style: "color: gold"
 
 ---
+<!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
 
 Hello!
 

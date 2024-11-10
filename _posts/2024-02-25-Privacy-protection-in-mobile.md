@@ -4,7 +4,7 @@ title: Privacy Protection in Mobile
 author: Jeffrey
 categories: misc
 tags: [misc, android, privacy]
-top:  <!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+top:  
 banner:
   video:
   loop: 
