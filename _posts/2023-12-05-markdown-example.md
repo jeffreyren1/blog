@@ -24,7 +24,8 @@ banner:
 ---
 
 This note demonstrates some of what [Markdown] [label1] is capable of doing.
-[label1]: <https://daringfireball.net/projects/markdown/> <!-- [Markdown] [label1] 中间需要加一个空格-- >
+[label1]: <https://daringfireball.net/projects/markdown/>
+<!-- [Markdown] [label1] 中间需要加一个空格 -->
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
@@ -60,6 +61,7 @@ URLs can be made in a handful of ways:
 * A named link to [MarkItDown] [label3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
 * Another named link to [MarkItDown](https://www.markitdown.net/)
 * Sometimes you just want a URL like <https://www.markitdown.net/>.
+
 [label3]: <https://www.markitdown.net/>
 
 ## Images
@@ -289,7 +291,7 @@ inline equation $ a+b=c $ test.
 
 <div align="center">
     <video width="500" height="350" controls autoplay>
-        <source src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" >
+        <source src="https://www.bilibili.com/video/BV1aTxMehEjK/" >
     </video>
 </div>
 
@@ -303,7 +305,7 @@ Local video file (".webm")
 Video with custom thumbnail:
 <div align="center">
     <video width="400" height="400" poster="https://i.imgur.com/bc9HOJU.png" controls>
-            <source src="https://www.youtube.com/watch?v=kCHGDRHZ4eU" type="video/mp4">
+            <source src="https://www.bilibili.com/video/BV1aTxMehEjK/" type="video/mp4">
         </video>
 </div>
 
