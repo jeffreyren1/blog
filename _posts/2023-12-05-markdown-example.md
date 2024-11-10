@@ -72,7 +72,7 @@ How about a yummy crepe?
 
 It can also be centered!
 <div align=right>
-<img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg />
+<img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg/>
 </div>
 
 ## Horizontal rule
