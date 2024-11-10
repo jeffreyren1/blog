@@ -10,7 +10,7 @@ banner:
   loop: 
   volume: 
   start_at: 
-  image: /assets/images/oppopic/地球调色师.jpg 
+  image: /assets/images/bingpic/TeideNational_1920x1080.jpg
   opacity: 0.618
   background: "#000"
   height: "100vh"

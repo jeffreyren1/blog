@@ -44,8 +44,7 @@ sequenceDiagram
   Bob-->Alice: Checking with John...
   Alice->John: Yes... John, how are you?
 @endmermaid
- 
- 
+
 ```mermaid!
 graph TD
 A[Christmas] -->|Get money| B(Go shopping)
@@ -56,6 +55,7 @@ A[Christmas] -->|Get money| B(Go shopping)
 ```
 
 ## 3. Class diagram
+
 ```mermaid!
 classDiagram
 Animal <|-- Duck
@@ -81,6 +81,7 @@ class Zebra{
 ```
 
 ## 4. State diagram
+
 ```mermaid!
 stateDiagram
 [*] --> Still
