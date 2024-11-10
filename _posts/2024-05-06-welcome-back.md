@@ -16,9 +16,9 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
 tags: misc
-top: 2
+top: 2   <!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
 ---
-[comment]: <> (DO NOT USE top:2, USE top:2, LEAVE A WHITESPACE)
+
 Hello!
 
 Welcome Back!
