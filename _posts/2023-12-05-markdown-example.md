@@ -23,8 +23,8 @@ banner:
 
 ---
 
-This note demonstrates some of what [Markdown][label1] is capable of doing.
-[label1]: <https://daringfireball.net/projects/markdown/>
+This note demonstrates some of what [Markdown] [label1] is capable of doing.
+[label1]: <https://daringfireball.net/projects/markdown/> <!-- [Markdown] [label1] 中间需要加一个空格-- >
 
 You can write regular [markdown](https://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
@@ -40,16 +40,14 @@ Paragraphs must be separated by a blank line. Basic formatting of *italics* and 
 
 ### Emoji
 
-:+1:
-:smile:
+You can use emoji here： 😄
+<!-- 直接使用😄， 不要使用:smile:，免得渲染不出来-->
 
 ## Headings
 
 There are six levels of headings. They correspond with the six levels of HTML headings. You've probably noticed them already in the page. Each level down uses one more hash character.
 
-### Headings *can* also contain **formatting**
-
-### They can even contain `inline code`
+### Headings *can* contain **formatting**, even contain `inline code`
 
 Of course, demonstrating what headings look like messes up the structure of the page.
 
@@ -59,7 +57,7 @@ I don't recommend using more than three or four levels of headings here, because
 
 URLs can be made in a handful of ways:
 
-* A named link to [MarkItDown][label3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
+* A named link to [MarkItDown] [label3]. The easiest way to do these is to select what you want to make a link and hit `Ctrl+L`.
 * Another named link to [MarkItDown](https://www.markitdown.net/)
 * Sometimes you just want a URL like <https://www.markitdown.net/>.
 [label3]: <https://www.markitdown.net/>
@@ -87,12 +85,12 @@ It's sometimes handy for breaking things up.
 
 Here's a useless table:
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | :smile: | $^b$ |
-| Ten[^footnote1] | Eleven | Nine |
-| <https://www.google.com>   | Eight |  ![example][cell image]  |
-| [Plum](https://example.com) | $\lambda^a$| $$O_3 + C_2H_2 \rightarrow $$ |
+| Number                      |  Next number  |                Previous number |
+|:----------------------------|:-------------:|-------------------------------:|
+| Five                        |      😄       |                           $^b$ |
+| Ten[^footnote1]             |    Eleven     |                           Nine |
+| <https://www.google.com>    |     Eight     |        ![example] [cell image] |
+| [Plum](https://example.com) | $ \lambda^a $ | $$ O_3 + C_2H_2 \rightarrow $$ |
 
 [cell image]: https://jekyllrb.com/img/octojekyll.png "An exemplary image"
 [^footnote1]: Footnote content
@@ -105,9 +103,9 @@ Here's a useless table:
 
 In table:
 
-Decision Point | Design Decision
---- | ---
-Authoritative DNS MX Record | `<Mail Gateway>`
+|Decision Point              | Design Decision|
+|----------------------------|-----------------|
+|Authoritative DNS MX Record | `<Mail Gateway>`|
 
 ## List
 
@@ -118,7 +116,7 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 3. Number 3
 4. Ⅳ
 
-*Note: the fourth item uses the Unicode character for [Roman numeral four][label2].*
+*Note: the fourth item uses the Unicode character for [Roman numeral four] [label2].*
 [label2]: <https://www.fileformat.info/info/unicode/char/2163/index.htm>
 
 ### Unordered list
@@ -137,14 +135,14 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 ### Code
 
 ```
-    Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
+Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
 ```
 
 You can also make `inline code` to add code into other things.
 
 Here's a code chunk:
 
-~~~
+~~~ 
 var foo = function(x) {
   return(x + 5);
 }
@@ -221,9 +219,7 @@ for (a, b), neighbors in common_neighbors.items():
         for j in set(nl.point_indices[
             nl.query_point_indices == i]).intersection(neighbors):
             g.add_edge(i, j)
-
-        # Define the identifiers for a CNA diagram:
-
+    # Define the identifiers for a CNA diagram:
     if key in diagrams:
         isomorphs = [nx.is_isomorphic(g, h) for h in diagrams[key]]
         if any(isomorphs):
@@ -253,6 +249,26 @@ sudo nginx -s reload
 
 ## Mathjax
 
+<!-- configure mathjax -->
+<script type="text/x-mathjax-config;executed=true">
+        window.MathJax.Hub.Config({
+            showProcessingMessages: false, //关闭js加载过程信息
+            messageStyle: "none", //不显示信息
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [["$", "$"], ["\\(", "\\)"]], //行内公式选择符
+                displayMath: [["$$", "$$"], ["\\[", "\\]"]], //段内公式选择符
+                skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
+            },
+            "HTML-CSS": {
+                availableFonts: ["STIX", "TeX"], //可选字体
+                showMathMenu: false //关闭右击菜单显示
+            }
+        });
+        //下面第三个参数可以不写，默认对整个html内的latex进行翻译
+        window.MathJax.Hub.Queue(["Typeset", MathJax.Hub,document.getElementsByClassName("ck-content")]);
+</script>
+
 `\LaTeX{}`
 
 ` a \* b = c ^ b `
@@ -261,7 +277,7 @@ sudo nginx -s reload
 
 $$ \int_a^b f(x)\,dx. $$
 
-inline equation $a+b=c$ test。
+inline equation $ a+b=c $ test.
 
 ## Video
 
