@@ -24,6 +24,7 @@ banner:
 ---
 
 This note demonstrates some of what [Markdown] [label1] is capable of doing.
+
 [label1]: <https://daringfireball.net/projects/markdown/>
 <!-- [Markdown] [label1] 中间需要加一个空格 -->
 
@@ -119,6 +120,7 @@ In table:
 4. Ⅳ
 
 *Note: the fourth item uses the Unicode character for [Roman numeral four] [label2].*
+
 [label2]: <https://www.fileformat.info/info/unicode/char/2163/index.htm>
 
 ### Unordered list
