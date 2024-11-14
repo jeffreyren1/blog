@@ -1,3 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: about
+title: About
+---
 <div align="center">
   <h1>JEKYLL YAT THEME</h1>
 </div>
@@ -21,25 +28,18 @@
 
 </p>
 
-
-
 <br>
 
 The [_YAT (Yet Another Theme)_](https://github.com/jeffreytse/jekyll-theme-yat) is a modern responsive theme. It's quite
 clear, clean and neat for writers and posts. **If you are an elegant writer and focus on content, don't miss it.**
 
 <p align="center">
-
   <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
-
 </p>
 
 <h4 align="center">BANNER</h4>
-
 <p align="center">
-
   <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
-
 </p>
 
 ## Features
@@ -64,15 +64,12 @@ clear, clean and neat for writers and posts. **If you are an elegant writer and 
 
 Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
-
 ## License
 
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) 
-
-<!-- External links -->
-
-[jekyll]: https://jekyllrb.com/
-[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php)
+<!-- External links 
+<!-- [jekyll]: https://jekyllrb.com/-->
+<!-- [yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/-->
 [yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
 [jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
 [jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
