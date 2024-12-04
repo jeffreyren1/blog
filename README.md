@@ -1,10 +1,8 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: about
-title: About
----
+<!-- Feel free to add content and custom Front Matter to this file. -->
+<!-- To modify the layout, see [here](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) -->
+# README
+
 <div align="center">
   <h1>JEKYLL YAT THEME</h1>
 </div>
