@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-03T19:08:36+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/feed.xml</id><title type="html">Jeffrey Ren&amp;#8217;s Blog</title><subtitle>Jeffrey Ren&apos;s Blog</subtitle><author><name>Jeffrey</name></author><entry><title type="html">Welcome Back</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/05/06/welcome-back.html" rel="alternate" type="text/html" title="Welcome Back" /><published>2024-05-06T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/05/06/welcome-back</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/05/06/welcome-back.html"><![CDATA[<!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+
+<p>Hello!</p>
+
+<p>Welcome Back!</p>
+
+<p>Adjust my own lifestyle, THINK more, and DO more!</p>]]></content><author><name>Jeffrey</name></author><category term="misc" /><category term="misc" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Privacy Protection in Mobile</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/25/Privacy-protection-in-mobile.html" rel="alternate" type="text/html" title="Privacy Protection in Mobile" /><published>2024-02-25T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/25/Privacy-protection-in-mobile</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/25/Privacy-protection-in-mobile.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p><strong>PRIVACY</strong> and <strong>CONVENIENCE</strong> are evil twins, and there is no absolute privacy in the world. Relative balance can create a beautiful scenery. Excessive balance will destroy this beauty. If you choose to respect your privacy rights, please note that this will to some extent infringe on the rights of the corresponding service provider and may result in your service provider exercising the right to refuse to provide some or all services. Therefore, please think twice before taking action. For the convenience of decision-making, this article will briefly attach examples at the beginning of each chapter that are known to cause such situations. Of course, the improvement of privacy level will also come at the cost of sacrificing some convenience. You need to weigh the pros and cons on your own and make decisions that are deemed appropriate.</p>
+
+<p>Here are some methods to protect your privacy as much as possible:</p>
+
+<h2 id="1-app-ops">1. App Ops</h2>
+
+<p>The reason why cancer software causes cancer is largely due to the combination of the above two factors. One of its manifestations is the excessive demand for permissions.</p>
+
+<p>AppOps can provide better and more detailed permission management functions than native Android systems.You can use it on the root phone, or activate Shizuku using ADB and grant AppOps device administrator privileges to achieve the same goal.</p>
+
+<h2 id="2-storage-redirect">2. Storage Redirect</h2>
+
+<p>Due to the limitations of lower version Android permission design, any application that has obtained full storage permission can read almost all content in the phone. At the same time, they can freely write various files to achieve various unexpected goals. This is often not what we want. What needs to be read can be read, and what doesn&#8217;t need to be read should not be moved, nor can it be moved. This may be what we imagine.</p>
+
+<p>You can use this software to achieve: the application will only place files in its own space; The application can only read its own files, as well as files that are pre-set to be readable.</p>
+
+<h2 id="3-afwall">3. AFWall+</h2>
+
+<p>AFWall+is an open-source &#8220;firewall&#8221; that can control the behavior of application networking. Root permission is required to set interception rules. It can control the communication between an application and the Internet or other local applications.</p>
+
+<h2 id="4-hidemyapplist">4. HideMyApplist</h2>
+
+<p>HideMyApplist is a list of apps that can be hidden from the launcher.Some software exploit various system vulnerabilities in an attempt to obtain a list of applications installed on the phone, in order to generate a user profile. Therefore, restricting some applications from accessing the application list has become one of the important methods to balance privacy and convenience.</p>
+
+<h2 id="5-ice-box">5. Ice Box</h2>
+
+<p>Ice Box is a utility that can freeze applications. It can be used to prevent applications from consuming resources and to prevent applications from accessing the Internet.</p>
+
+<p>You can set shortcuts, automatic freeze conditions, lock screen delay, exception situations, and other functions, which are very convenient to use.</p>
+
+<h2 id="6-my-android-tools">6. My Android Tools</h2>
+
+<p>Android has four main services: services, broadcast receivers, and event and content providers. In short, as the four core components of Android applications, the &#8220;Four Kings&#8221; are the cornerstone for various applications to implement various logic. However, not all components are necessary for daily use of corresponding applications. Therefore, privacy protection can be achieved by using My Android Tools to selectively disabling certain components to prevent the application from performing specific operations.</p>
+
+<h2 id="7-summary">7. Summary</h2>
+
+<p>The above methods can help you protect your privacy from a system perspective. Of course, there is much more we can do!</p>]]></content><author><name>Jeffrey</name></author><category term="misc" /><category term="misc" /><category term="android" /><category term="privacy" /><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">My Video List</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/24/My-Video-List.html" rel="alternate" type="text/html" title="My Video List" /><published>2024-02-24T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/24/My-Video-List</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/02/24/My-Video-List.html"><![CDATA[<!-- markdownlint-disable MD033 -->
+
+<p>Here is my video list.</p>
+
+<h2 id="tech">Tech</h2>
+
+<iframe src="//player.bilibili.com/player.html?aid=470860280&amp;bvid=BV1AT411J7cH&amp;cid=770020454&amp;p=1&amp;high_quality=1&amp;danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+<ol>
+  <li>FFmpeg actually has too many functions. The process of learning FFmpeg is not a tedious process of writing command lines to the screen, but rather helps you understand the essence of multimedia files</li>
+  <li>In actual use, it is not directly inputting commands, but rather writing commonly used commands into scripts in advance</li>
+  <li>FFmpeg is not suitable as a main editing software. Professional editing software can provide many functions that it does not have</li>
+  <li>In addition to FFmpeg, there are other tools available for processing multimedia files, such as Audacity for processing audio files and PicPick for processing images</li>
+</ol>
+
+<iframe src="//player.bilibili.com/player.html?aid=961525463&amp;bvid=BV1zH4y1U7jG&amp;cid=1284252062&amp;p=1&amp;high_quality=1&amp;danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+<h2 id="life">Life</h2>
+
+<iframe src="//player.bilibili.com/player.html?aid=313751697&amp;bvid=BV1GP411d7Hr&amp;cid=1133151854&amp;p=1&amp;high_quality=1&amp;danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+<h2 id="misc">Misc</h2>
+
+<iframe src="//player.bilibili.com/player.html?aid=274315828&amp;bvid=BV1pF411f7yD&amp;cid=1222550989&amp;p=1&amp;high_quality=1&amp;danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content><author><name>Jeffrey</name></author><category term="misc" /><category term="misc" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Our Travel in the Summer Palace</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/travel/2024/01/11/Travel-in-the-Summer-Palace.html" rel="alternate" type="text/html" title="Our Travel in the Summer Palace" /><published>2024-01-11T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/travel/2024/01/11/Travel-in-the-Summer-Palace</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/travel/2024/01/11/Travel-in-the-Summer-Palace.html"><![CDATA[<!-- DO NOT USE # Introduction, OTHERWISE THERE IS NO TOC! USE ## Introduction -->
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The Summer Palace, also known as Yiheyuan in Chinese, is a majestic royal garden nestled in the northwest outskirts of Beijing. Recognized as one of China&#8217;s most cherished and extensive imperial parks, it has been listed as a UNESCO World Heritage Site since 1998.</p>
+
+<p>Constructed primarily during the Qing Dynasty (1644-1912), the Summer Palace served as a luxurious retreat for emperors seeking respite from the scorching summer heat of the Forbidden City. The design harmoniously combines natural landscapes with artificial structures, reflecting traditional Chinese gardening aesthetics and architectural brilliance.</p>
+
+<p>Spanning over 290 hectares, the park features breathtaking scenic spots such as Kunming Lake and Longevity Hill. The iconic Seventeen-Arch Bridge elegantly traverses the lake, while the magnificent Hall of Dispelling Clouds perches atop the hill, offering panoramic views. The Long Corridor, adorned with thousands of intricate paintings, meanders along the water&#8217;s edge, providing visitors with a vivid display of classical art.</p>
+
+<p>The Summer Palace also boasts historical buildings like the Marble Boat, which symbolizes the stability of the Qing dynasty despite turbulent times, and the Tower of Buddhist Incense, a towering pagoda that stands as a testament to religious influence on imperial life.</p>
+
+<p>Today, the Summer Palace continues to attract millions of tourists every year who come to admire its rich history, exquisite architecture, and serene beauty. It not only serves as a living museum but also as a tranquil oasis within the bustling metropolis of Beijing, where one can experience the grandeur of China&#8217;s imperial past and appreciate the delicate balance between human creativity and nature&#8217;s serenity.</p>
+
+<h2 id="our-footprints">Our Footprints</h2>
+<!-- This is a comment, it will not be included -->
+<!-- DO NOT USE MARKDOWN SYNTAX IN IMAGES LIKE THIS: [pic1.jpg]("https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg") -->
+<!-- DO NOT USE LOCAL PATH, BUT USE URL. not recommended:<img src=/assets/images/2024-01-11/pic1.jpg align=center /> -->
+
+<p><br /></p>
+<div>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic1.jpg" alt="pic1" align="middle" />
+</div>
+
+<p><br /></p>
+<div>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic2.jpg" alt="pic2" align="middle" />
+</div>
+
+<p><br /></p>
+<div>
+<img src="https://raw.githubusercontent.com/jeffreyren1/blog/master/assets/images/2024-01-11/pic3.jpg" alt="pic3" align="middle" />
+</div>
+<!--DO NOT USE width="80%" height="80%" /> -->]]></content><author><name>Jeffrey</name></author><category term="travel" /><category term="travel" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hello World</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/01/10/Hello-World.html" rel="alternate" type="text/html" title="Hello World" /><published>2024-01-10T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/01/10/Hello-World</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/misc/2024/01/10/Hello-World.html"><![CDATA[<p><strong>Hello everyone!</strong></p>
+
+<p>Welcome to my blog! Here, I will share knowledge and skills from various fields, hoping to bring you inspiration and resonance through my writing and insights.</p>
+
+<p>We live in an era where technology is developing at a rapid pace, and science and technology have penetrated every aspect of our lives. As a technology enthusiast who is passionate about exploration and sharing, I hope to explore the mysteries of these fields together with you through this blog and strive for common progress.</p>
+
+<p>In the days to come, I will adhere to the principles of objectivity, fairness, and independence, presenting you with articles that are passionate, warm, and profound. At the same time, I am also looking forward to your participation and interaction, joining hands to create a vibrant and creative exchange space.</p>
+
+<p>Please believe that whether you are a beginner or an expert, or even a curious explorer of life, my blog will offer you a unique reward. Let&#8217;s dive into the ocean of knowledge together, broaden our horizons, and improve ourselves.</p>
+
+<p>Lastly, let me once again thank you for your attention and support. Let&#8217;s explore the unknown, share experiences, and grow together in this technology blog. I look forward to joining hands with you to create a better future!</p>]]></content><author><name>Jeffrey</name></author><category term="misc" /><category term="text" /><category term="misc" /><summary type="html"><![CDATA[Hello everyone!]]></summary></entry><entry><title type="html">Mermaid example</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/08/mermaid-example.html" rel="alternate" type="text/html" title="Mermaid example" /><published>2023-12-08T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/08/mermaid-example</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/08/mermaid-example.html"><![CDATA[<h2 id="1-pie-chart">1. Pie chart</h2>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoicGllIHRpdGxlIFBldHMgYWRvcHRlZCBieSB2b2x1bnRlZXJzXG5cIkRvZ3NcIiA6IDM4NlxuXCJDYXRzXCIgOiA4NVxuXCJSYXRzXCIgOiAzNSIsIm1lcm1haWQiOm51bGx9" /></p>
+
+<h2 id="2-sequence-diagram">2. sequence diagram</h2>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5BbGljZSAtPj4gQm9iOiBIZWxsbyBCb2IsIGhvdyBhcmUgeW91P1xuQm9iLS0-PkpvaG46IEhvdyBhYm91dCB5b3UgSm9obj9cbkJvYi0teCBBbGljZTogSSBhbSBnb29kIHRoYW5rcyFcbkJvYi14IEpvaG46IEkgYW0gZ29vZCB0aGFua3MhXG5Ob3RlIHJpZ2h0IG9mIEpvaG46IEJvYiB0aGlua3MgYSBsb25nPGJyLz5sb25nIHRpbWUsIHNvIGxvbmc8YnIvPnRoYXQgdGhlIHRleHQgZG9lczxici8-bm90IGZpdCBvbiBhIHJvdy5cbiUlLVxuQm9iLS0-QWxpY2U6IENoZWNraW5nIHdpdGggSm9obi4uLlxuQWxpY2UtPkpvaG46IFllcy4uLiBKb2huLCBob3cgYXJlIHlvdT8iLCJtZXJtYWlkIjpudWxsfQ" /></p>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggVERcbkFbQ2hyaXN0bWFzXSAtLT58R2V0IG1vbmV5fCBCKEdvIHNob3BwaW5nKVxuQiAtLT4gQ3tMZXQgbWUgdGhpbmt9XG5DIC0tPnxPbmV8IERbTGFwdG9wXVxuQyAtLT58VHdvfCBFW2lQaG9uZV1cbkMgLS0-fFRocmVlfCBGW2ZhOmZhLWNhciBDYXJdIiwibWVybWFpZCI6bnVsbH0" /></p>
+
+<h2 id="3-class-diagram">3. Class diagram</h2>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5BbmltYWwgPHwtLSBEdWNrXG5BbmltYWwgPHwtLSBGaXNoXG5BbmltYWwgPHwtLSBaZWJyYVxuQW5pbWFsIDogK2ludCBhZ2VcbkFuaW1hbCA6ICtTdHJpbmcgZ2VuZGVyXG5BbmltYWw6ICtpc01hbW1hbCgpXG5BbmltYWw6ICttYXRlKClcbmNsYXNzIER1Y2t7XG4rU3RyaW5nIGJlYWtDb2xvclxuK3N3aW0oKVxuK3F1YWNrKClcbn1cbmNsYXNzIEZpc2h7XG4taW50IHNpemVJbkZlZXRcbi1jYW5FYXQoKVxufVxuY2xhc3MgWmVicmF7XG4rYm9vbCBpc193aWxkXG4rcnVuKClcbn0iLCJtZXJtYWlkIjpudWxsfQ" /></p>
+
+<h2 id="4-state-diagram">4. State diagram</h2>
+
+<p><img class="mermaid" src="https://mermaid.ink/svg/eyJjb2RlIjoic3RhdGVEaWFncmFtXG5bKl0gLS0-IFN0aWxsXG5TdGlsbCAtLT4gWypdXG4lJS1cblN0aWxsIC0tPiBNb3Zpbmdcbk1vdmluZyAtLT4gU3RpbGxcbk1vdmluZyAtLT4gQ3Jhc2hcbkNyYXNoIC0tPiBbKl0iLCJtZXJtYWlkIjpudWxsfQ" /></p>]]></content><author><name>Jeffrey</name></author><category term="example" /><category term="mermaid" /><category term="example" /><summary type="html"><![CDATA[1. Pie chart]]></summary></entry><entry><title type="html">Markdown Example</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/05/markdown-example.html" rel="alternate" type="text/html" title="Markdown Example" /><published>2023-12-05T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/05/markdown-example</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/05/markdown-example.html"><![CDATA[<p>This note demonstrates some of what <a href="https://daringfireball.net/projects/markdown/">Markdown</a> is capable of doing.</p>
+
+<!-- [Markdown] [label1] 中间需要加一个空格 -->
+
+<p>You can write regular <a href="https://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to take 5 minutes to learn how to write in markdown- it&#8217;ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
+
+<h2 id="an-exhibit-of-markdown">An exhibit of Markdown</h2>
+
+<p><em>Note: Feel free to play with this page. Unlike regular notes, this doesn&#8217;t automatically save itself.</em></p>
+
+<h2 id="basic-formatting">Basic formatting</h2>
+
+<p>Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</p>
+
+<p>Paragraphs must be separated by a blank line. Basic formatting of <em>italics</em> and <strong>bold</strong> is supported. This <em>can be <strong>nested</strong> like</em> so.</p>
+
+<h3 id="emoji">Emoji</h3>
+
+<p>You can use emoji here： 😄
+<!-- 直接使用😄， 不要使用:smile:，免得渲染不出来--></p>
+
+<h2 id="headings">Headings</h2>
+
+<p>There are six levels of headings. They correspond with the six levels of HTML headings. You&#8217;ve probably noticed them already in the page. Each level down uses one more hash character.</p>
+
+<h3 id="headings-can-contain-formatting-even-contain-inline-code">Headings <em>can</em> contain <strong>formatting</strong>, even contain <code class="language-plaintext highlighter-rouge">inline code</code></h3>
+
+<p>Of course, demonstrating what headings look like messes up the structure of the page.</p>
+
+<p>I don&#8217;t recommend using more than three or four levels of headings here, because, when you&#8217;re smallest heading isn&#8217;t too small, and you&#8217;re largest heading isn&#8217;t too big, and you want each size up to look noticeably larger and more important, there there are only so many sizes that you can use.</p>
+
+<h2 id="urls">URLs</h2>
+
+<p>URLs can be made in a handful of ways:</p>
+
+<ul>
+  <li>A named link to <a href="https://www.markitdown.net/">MarkItDown</a>. The easiest way to do these is to select what you want to make a link and hit <code class="language-plaintext highlighter-rouge">Ctrl+L</code>.</li>
+  <li>Another named link to <a href="https://www.markitdown.net/">MarkItDown</a></li>
+  <li>Sometimes you just want a URL like <a href="https://www.markitdown.net/">https://www.markitdown.net/</a>.</li>
+</ul>
+
+<h2 id="images">Images</h2>
+
+<p>How about a yummy crepe?</p>
+
+<p><img src="https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" />{.:block_center}</p>
+
+<p>It can also be centered!</p>
+<div align="right">
+&lt;img src=https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg/&gt;
+</div>
+
+<h2 id="horizontal-rule">Horizontal rule</h2>
+
+<p>A horizontal rule is a line that goes across the middle of the page.</p>
+
+<hr />
+
+<p>It&#8217;s sometimes handy for breaking things up.</p>
+
+<h2 id="table">Table</h2>
+
+<p>Here&#8217;s a useless table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Number</th>
+      <th style="text-align: center">Next number</th>
+      <th style="text-align: right">Previous number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Five</td>
+      <td style="text-align: center">😄</td>
+      <td style="text-align: right">$^b$</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Ten<sup id="fnref:footnote1"><a href="#fn:footnote1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>(Footnote)</td>
+      <td style="text-align: center">Eleven</td>
+      <td style="text-align: right">Nine</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="https://www.google.com">https://www.google.com</a></td>
+      <td style="text-align: center">Eight</td>
+      <td style="text-align: right">![example](https://jekyllrb.com/img/octojekyll.png "An exemplary image")</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">[Plum](https://example.com)</td>
+      <td style="text-align: center">$ \lambda^a $</td>
+      <td style="text-align: right">$$ O_3 + C_2H_2 \rightarrow $$</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+|:-----:|:-----:|:-----:|:-----:|
+| \(0,0) | \(0,1) | \(0,2) | \(0,3) |
+|     \(1,0)    \|| ^^    | \(1,3) |
+</script>
+
+<p>In table:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Decision Point</th>
+      <th>Design Decision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Authoritative DNS MX Record</td>
+      <td><code class="language-plaintext highlighter-rouge">&lt;Mail Gateway&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="list">List</h2>
+
+<h3 id="ordered-list">Ordered list</h3>
+
+<ol>
+  <li>Item 1</li>
+  <li>A second item</li>
+  <li>Number 3</li>
+  <li>Ⅳ</li>
+</ol>
+
+<p><em>Note: the fourth item uses the Unicode character for <a href="https://www.fileformat.info/info/unicode/char/2163/index.htm">Roman numeral four</a>.</em></p>
+
+<h3 id="unordered-list">Unordered list</h3>
+
+<ul>
+  <li>An item</li>
+  <li>Another item</li>
+  <li>Yet another item</li>
+  <li>And there&#8217;s more&#8230;</li>
+</ul>
+
+<h2 id="block">Block</h2>
+
+<h3 id="quote">Quote</h3>
+
+<blockquote>
+  <p>Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.</p>
+</blockquote>
+
+<h3 id="code">Code</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Code blocks are very useful for developers and other people who look at code or other things that are written in plain text. As you can see, it uses a fixed-width font.
+</code></pre></div></div>
+
+<p>You can also make <code class="language-plaintext highlighter-rouge">inline code</code> to add code into other things.</p>
+
+<p>Here&#8217;s a code chunk:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+</code></pre></div></div>
+
+<p>And here is the same code with syntax highlighting:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nf">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">void</span> <span class="nf">insert</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span><span class="o">*</span> <span class="n">key</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">*</span><span class="n">key</span> <span class="o">==</span> <span class="sc">'\0'</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">finish</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="o">*</span><span class="n">key</span> <span class="o">-</span> <span class="sc">'A'</span><span class="p">;</span>
+        <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">])</span>
+            <span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Trie</span><span class="p">();</span>
+        <span class="n">next</span><span class="p">[</span><span class="n">idx</span><span class="p">]</span><span class="o">-&gt;</span><span class="n">insert</span><span class="p">(</span><span class="n">key</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span> <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Hello, World!<span class="nt">&lt;/p&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<pre><code class="language-Ruby">def print_hi(name)
+puts "Hi, #{name}"
+end
+print_hi('Tom')  #=&gt; prints 'Hi, Tom' to STDOUT.
+</code></pre>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>  <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>And here is the same code yet again but with line numbers:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nf">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+</pre></td><td class="code"><pre><span class="kn">import</span> <span class="n">networkx</span> <span class="k">as</span> <span class="n">nx</span>
+<span class="kn">from</span> <span class="n">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="n">diagrams</span> <span class="o">=</span> <span class="nf">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="n">particle_counts</span> <span class="o">=</span> <span class="nf">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
+
+<span class="nf">for </span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">),</span> <span class="n">neighbors</span> <span class="ow">in</span> <span class="n">common_neighbors</span><span class="p">.</span><span class="nf">items</span><span class="p">():</span>
+    <span class="c1"># Build up the graph of connections between the
+</span>    <span class="c1"># common neighbors of a and b.
+</span>    <span class="n">g</span> <span class="o">=</span> <span class="n">nx</span><span class="p">.</span><span class="nc">Graph</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nf">set</span><span class="p">(</span><span class="n">nl</span><span class="p">.</span><span class="n">point_indices</span><span class="p">[</span>
+            <span class="n">nl</span><span class="p">.</span><span class="n">query_point_indices</span> <span class="o">==</span> <span class="n">i</span><span class="p">]).</span><span class="nf">intersection</span><span class="p">(</span><span class="n">neighbors</span><span class="p">):</span>
+            <span class="n">g</span><span class="p">.</span><span class="nf">add_edge</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">)</span>
+    <span class="c1"># Define the identifiers for a CNA diagram:
+</span>    <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">diagrams</span><span class="p">:</span>
+        <span class="n">isomorphs</span> <span class="o">=</span> <span class="p">[</span><span class="n">nx</span><span class="p">.</span><span class="nf">is_isomorphic</span><span class="p">(</span><span class="n">g</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">]]</span>
+        <span class="k">if</span> <span class="nf">any</span><span class="p">(</span><span class="n">isomorphs</span><span class="p">):</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">isomorphs</span><span class="p">.</span><span class="nf">index</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">append</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+            <span class="n">idx</span> <span class="o">=</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">index</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">append</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+        <span class="n">idx</span> <span class="o">=</span> <span class="n">diagrams</span><span class="p">[</span><span class="n">key</span><span class="p">].</span><span class="nf">index</span><span class="p">(</span><span class="n">g</span><span class="p">)</span>
+    <span class="n">cna_signature</span> <span class="o">=</span> <span class="n">key</span> <span class="o">+</span> <span class="p">(</span><span class="n">idx</span><span class="p">,)</span>
+    <span class="n">particle_counts</span><span class="p">[</span><span class="n">a</span><span class="p">].</span><span class="nf">update</span><span class="p">([</span><span class="n">cna_signature</span><span class="p">])</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gi">+        'user_exists' =&gt; 'SELECT EXISTS(SELECT 1 FROM table ',
++        'get_users' =&gt; 'SELECT split_part(username, \'@\', 1) FROM tab',
++        'get_password_hash_for_user' =&gt; 'SELEC',
++        'set_password_hash_for_user' =&gt; 'UP',
+</span></code></pre></div></div>
+
+<p>Reload the Nginx:</p>
+
+<div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="go">sudo nginx -s reload
+</span></code></pre></div></div>
+
+<h2 id="mathjax">Mathjax</h2>
+
+<!-- configure mathjax -->
+<script type="text/x-mathjax-config;executed=true">
+        window.MathJax.Hub.Config({
+            showProcessingMessages: false, //关闭js加载过程信息
+            messageStyle: "none", //不显示信息
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [["$", "$"], ["\\(", "\\)"]], //行内公式选择符
+                displayMath: [["\$\$", "\$\$"], ["\\[", "\\]"]], //段内公式选择符
+                skipTags: ["script", "noscript", "style", "textarea", "pre", "code", "a"] //避开某些标签
+            },
+            "HTML-CSS": {
+                availableFonts: ["STIX", "TeX"], //可选字体
+                showMathMenu: false //关闭右击菜单显示
+            }
+        });
+        //下面第三个参数可以不写，默认对整个html内的latex进行翻译
+        window.MathJax.Hub.Queue(["Typeset", MathJax.Hub,document.getElementsByClassName("ck-content")]);
+</script>
+
+<p><code class="language-plaintext highlighter-rouge">\LaTeX{}</code></p>
+
+<p>` a * b = c ^ b `</p>
+
+<p><code class="language-plaintext highlighter-rouge">2^{\frac{n-1}{3}}</code></p>
+
+<p>$$ \int_a^b f(x)\,dx. $$</p>
+
+<p>inline equation $ a+b=c $ test.</p>
+
+<h2 id="video">Video</h2>
+
+<div align="center">
+    <video width="320" height="240" controls="" autoplay="">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+    </video>
+</div>
+
+<div align="center">
+    <video width="500" height="350" controls="" autoplay="">
+        <source src="https://www.bilibili.com/video/BV1aTxMehEjK/" />
+    </video>
+</div>
+
+<p>Local video file (&#8220;.webm&#8221;)</p>
+<div align="center">
+    <video width="500" height="350" controls="" autoplay="">
+        <source src="/assets/videos/devstories.webm" />
+    </video>
+</div>
+
+<p>Video with custom thumbnail:</p>
+<div align="center">
+    <video width="400" height="400" poster="https://i.imgur.com/bc9HOJU.png" controls="">
+            <source src="https://www.bilibili.com/video/BV1aTxMehEjK/" type="video/mp4" />
+        </video>
+</div>
+
+<h2 id="audio">Audio</h2>
+
+<p>HTML5 Audio Formats Test is <a href="https://hpr.dogphilosophy.net/test/">here</a></p>
+
+<p>&#8220;MP3&#8221; file (&#8220;.mp3&#8221;) :</p>
+<audio controls="">
+  <source src="https://hpr.dogphilosophy.net/test/mp3.mp3" type="audio/mpeg" />
+</audio>
+
+<p>WebM Audio (&#8220;.weba&#8221;):</p>
+<audio controls="">
+  <source src="https://hpr.dogphilosophy.net/test/weba.weba)" />
+</audio>
+
+<p>FLAC file (&#8220;.flac&#8221;) :</p>
+<audio controls="">
+  <source src="https://hpr.dogphilosophy.net/test/flac.flac" />
+</audio>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:footnote1">
+      <p>Footnote content&#160;<a href="#fnref:footnote1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>Jeffrey</name></author><category term="example" /><category term="markdown" /><category term="example" /><summary type="html"><![CDATA[This note demonstrates some of what Markdown is capable of doing.]]></summary></entry><entry><title type="html">Plantuml Example</title><link href="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/04/plantuml-example.html" rel="alternate" type="text/html" title="Plantuml Example" /><published>2023-12-04T00:00:00+08:00</published><updated>2025-07-03T19:01:53+08:00</updated><id>https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/04/plantuml-example</id><content type="html" xml:base="https://jeffreyren1.github.io//jeffreytse/jekyll-theme-yat/example/2023/12/04/plantuml-example.html"><![CDATA[<!-- DO NOT USE top:2, USE top: 2, LEAVE A WHITESPACE -->
+
+<h2 id="plantuml-block-1">PlantUML Block-1</h2>
+
+<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a426f62202d3e20416c696365203a2068656c6c6f0a40656e64756d6c" /></p>
+
+<h2 id="plantuml-block-2">PlantUML Block-2</h2>
+
+<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a426f62202d3e20416c696365203a2068656c6c6f20776f726c640a40656e64756d6c" /></p>
+
+<h2 id="plantuml-block-3">PlantUML Block-3</h2>
+
+<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a282a29202d2d3e2022496e697469616c697a6174696f6e220a0a69662022536f6d65205465737422207468656e0a20202d2d3e5b747275655d2022536f6d65204163746976697479220a20202d2d3e2022416e6f74686572206163746976697479220a20202d72696768742d3e20282a290a656c73650a20202d3e5b66616c73655d2022536f6d657468696e6720656c7365220a20202d2d3e5b456e64696e672070726f636573735d20282a290a656e6469660a40656e64756d6c" /></p>
+
+<h2 id="plantuml-block-4">PlantUML Block-4</h2>
+
+<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a736b696e706172616d2068616e647772697474656e20747275650a0a736b696e706172616d2075736563617365207b0a20204261636b67726f756e64436f6c6f72204461726b536561477265656e0a2020426f72646572436f6c6f72204461726b536c617465477261790a0a20204261636b67726f756e64436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a2020426f72646572436f6c6f723c3c204d61696e203e3e2059656c6c6f77477265656e0a0a20204172726f77436f6c6f72204f6c6976650a20204163746f72426f72646572436f6c6f7220626c61636b0a20204163746f72466f6e744e616d6520436f75726965720a0a20204163746f724261636b67726f756e64436f6c6f723c3c2048756d616e203e3e20476f6c640a7d0a0a55736572203c3c2048756d616e203e3e0a3a4d61696e2044617461626173653a206173204d7953716c203c3c204170706c69636174696f6e203e3e0a28537461727429203c3c204f6e652053686f74203e3e0a2855736520746865206170706c69636174696f6e29206173202855736529203c3c204d61696e203e3e0a0a55736572202d3e20285374617274290a55736572202d2d3e2028557365290a0a4d7953716c202d2d3e2028557365290a0a40656e64756d6c" /></p>]]></content><author><name>Jeffrey</name></author><category term="example" /><category term="plantuml" /><category term="example" /><summary type="html"><![CDATA[]]></summary></entry></feed>
